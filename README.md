@@ -4,7 +4,10 @@ This objective of this project is to leverage Python alongside blockchain techno
 
 ### About the Wallet
 
-The first step to interact with the wallet file created is to ensure all installs have been completed.  As mentioned, both the Bit and Web3 Python libraries need to be installed.  These installs are fairly quick and easy to complete in your terminal (GitBash).  Instructions can be found here: [Bit/Web3 Installs](Install Guides/Blockchain_TX_Install_Guide.md).
+The first step to interact with the wallet file created is to ensure all installs have been completed.  As mentioned, both the Bit and Web3 Python libraries need to be installed.  These installs are fairly quick and easy to complete in your terminal (GitBash).  Installation instructions can be found below.  In addition to the Bit and Web3 libraries, hd-wallet-derive also needs to be cloned to the local directory you are working in.  A guide to complete this process is below as well.  This install can be slightly more challenging, so a link to a video guide is also included in the install instructions. 
+
+[Bit/Web3 Install Guide](Install Guides/Blockchain_TX_Install_Guide.md)
+[HD-Wallet-Derive Install Guide](Install Guides/HD-Wallet-Derive_Install_Guide.md)
 
 Create a README.md that contains the test transaction screenshots, as well as the code used to send them.
 Pair the screenshot with the line(s) of code.
