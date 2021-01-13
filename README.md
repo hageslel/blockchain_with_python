@@ -17,30 +17,16 @@ The final two functions created were "create_tx" and "send_tx".  The "create_tx"
 
 To demonstrate transactions being completed after running the wallet file, below are two examples.  
 
-Code: 
+BTCTEST Transaction Code: 
   - create_tx(BTCTEST, btc_account, 'mwQDPPDTxWWz3aYupQVdSyGpswVPn9JHYV', .000001)
   - send_tx(BTCTEST, btc_account, 'mt3p3zCExoVCWrHziCqWn3RT5PubQRwCco', .000001)
   - Transaction Hash: d32acdc22a745444e69f1e6cd8e12c27ae9f9ba98e3092f3f1d7d1e010b4a6e2
   
  ![BTCTEST Transaction](Screenshots/btc_function_transaction.PNG)
 
-
-
-create_tx(ETH, eth_account, '0x89320751b21A5c56158F03224d8A6037586D3aFA', 1)
-send_tx(ETH, eth_account, '0x89320751b21A5c56158F03224d8A6037586D3aFA', 1)
-Transaction Hash: 0x5122c0120949037bfd45e960b92f6c5a668cde09d28838bf8ddb0df7cbfd37a0
+ETH Transaction Code: 
+  - create_tx(ETH, eth_account, '0x89320751b21A5c56158F03224d8A6037586D3aFA', 1)
+  - send_tx(ETH, eth_account, '0x89320751b21A5c56158F03224d8A6037586D3aFA', 1)
+  - Transaction Hash: 0x5122c0120949037bfd45e960b92f6c5a668cde09d28838bf8ddb0df7cbfd37a0
 
  ![ETH Transaction](Screenshots/eth_function_transaction.PNG)
-
-Create a README.md that contains the test transaction screenshots, as well as the code used to send them.
-Pair the screenshot with the line(s) of code.
-
-Write a short description about what the wallet does, what is is built with, and how to use it.
-
-Include installing pip dependencies using requirements.txt, as well as cloning and installing hd-wallet-derive.
-You may include the hd-wallet-derive folder in your repo, but still include the install instructions. You do not
-need to include Python or PHP installation instructions.
-
-[Install Guide](blockchain-install-guide.md)
- 
-
