@@ -8,7 +8,7 @@ The first step to interact with the wallet file created is to ensure all install
 
 [Bit/Web3 Install Guide](Blockchain_TX_Install_Guide.md)
 
-[HD-Wallet-Derive Install Guide](HD-Wallet-Derive_Install_Guide.md)
+[HD-Wallet-Derive Install Guide](HD_Wallet_Derive_Install_Guide.md)
 
 Once all installs / dependencies are met, the wallet can now be interacted with.  The first step was to import a mnemonic phrase.  This was set as an environment variable and pulled into the code as such.  The first function created allows you to derive the wallets you will be working with.  A coin symbol (BTC, ETH, BTCTEST) can be passed into the function and the function will output wallet addresses, private keys, and public keys.  Since "numderive" is set to 3 within the function, only 3 outputs will be produced for each coin.  A "coins" dictionary object was created to store data derived from this function for ETH and BTCTEST.  
 
