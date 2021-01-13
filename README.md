@@ -6,8 +6,8 @@ This objective of this project is to leverage Python alongside blockchain techno
 
 The first step to interact with the wallet file created is to ensure all installs have been completed.  As mentioned, both the Bit and Web3 Python libraries need to be installed.  These installs are fairly quick and easy to complete in your terminal (GitBash).  Installation instructions can be found below.  In addition to the Bit and Web3 libraries, hd-wallet-derive also needs to be cloned to the local directory you are working in.  A guide to complete this process is below as well.  This install can be slightly more challenging, so a link to a video guide is also included in the install instructions. 
 
-[Bit/Web3 Install Guide](Install Guides/Blockchain_TX_Install_Guide.md)
-[HD-Wallet-Derive Install Guide](Install Guides/HD-Wallet-Derive_Install_Guide.md)
+[Bit/Web3 Install Guide](Blockchain_TX_Install_Guide.md)
+[HD-Wallet-Derive Install Guide](HD-Wallet-Derive_Install_Guide.md)
 
 Once all installs / dependencies are met, the wallet can now be interacted with.  The first step was to import a mnemonic phrase.  This was set as an environment variable and pulled into the code as such.  The first function created allows you to derive the wallets you will be working with.  A coin symbol (BTC, ETH, BTCTEST) can be passed into the function and the function will output wallet addresses, private keys, and public keys.  Since "numderive" is set to 3 within the function, only 3 outputs will be produced for each coin.  A "coins" dictionary object was created to store data derived from this function for ETH and BTCTEST.  
 
