@@ -15,7 +15,6 @@ Include installing pip dependencies using requirements.txt, as well as cloning a
 You may include the hd-wallet-derive folder in your repo, but still include the install instructions. You do not
 need to include Python or PHP installation instructions.
 
-
- [Install Guide](blockchain-install-guide.md)
+[Install Guide](blockchain-install-guide.md)
  
  ![Network Configuration](Screenshots/puppeth_config1.PNG)
